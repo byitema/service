@@ -2,7 +2,7 @@ var websocket;
 var lang;
 
 function init() {
-    websocket = new WebSocket('ws://bulakh-lab8.herokuapp.com/chat');
+    websocket = new WebSocket('wss://bulakh-lab8.herokuapp.com/chat');
     websocket.onopen = function (event) {
         websocketOpen(event);
     };
