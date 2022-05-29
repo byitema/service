@@ -2,7 +2,8 @@ var websocket;
 var lang;
 
 function init() {
-    websocket = new WebSocket('ws://localhost:8080/lab5_demo_war_exploded/chat');
+    websocket = new WebSocket('wss://' + document.location.host +
+        document.location.pathname + '/chat');
     websocket.onopen = function (event) {
         websocketOpen(event);
     };
