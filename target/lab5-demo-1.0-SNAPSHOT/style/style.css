@@ -1,0 +1,39 @@
+.main-menu {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.main-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-menu li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px 25px;
+    background: #191919;
+    width: auto;
+}
+
+.main-menu li a:hover {
+    background: #191919;
+}
+
+.main-menu ul > li {
+    display: inline-block;
+    margin-right: -4px;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+p,
+ul, form {
+    padding-left: 20%;
+    padding-right: 20%;
+}
